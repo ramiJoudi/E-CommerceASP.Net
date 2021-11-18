@@ -35,7 +35,11 @@ namespace WebApplication4.Controllers
 
             return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentDetailId }, paymentDetail);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // DELETE: api/PaymentDetail/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePaymentDetail(int id)
