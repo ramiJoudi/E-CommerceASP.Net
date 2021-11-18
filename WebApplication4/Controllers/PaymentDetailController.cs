@@ -36,7 +36,7 @@ namespace WebApplication4.Controllers
             return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentDetailId }, paymentDetail);
         }
         /// <summary>
-        /// 
+        /// hgg
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
